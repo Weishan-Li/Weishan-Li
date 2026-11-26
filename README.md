@@ -77,6 +77,8 @@ ATS APIs ─► Scrapers ─► MinIO (bronze) ─► Cleaning + LLM (silver) �
 
 **What I built**
 
+- 🌐 **Early data cleaning of scraped postings** — standardised jobs from different career sites into one format, translated non-English postings, and removed empty fields and special characters
+- 🧠 **Tested the LLM job classification** — evaluated it at **~90% accuracy**
 - 🧹 **Silver-layer cleaning & de-duplication** — required fields, HTML stripping, timestamp / employment-type / location normalisation, and a 3-level de-duplication key that keeps the most complete record ([#83](https://github.com/husthunterpy01/Autonomous_Vehicle_Job_Profiles_Group3/pull/83))
 - ⭐ **Gold star schema with dbt** — fact and dimension tables for monthly skill demand, synced to its own PostgreSQL database ([#136](https://github.com/husthunterpy01/Autonomous_Vehicle_Job_Profiles_Group3/pull/136))
 - 📈 **Skill-trend API + interactive chart** — `GET /trends/skills`, a line chart with highlight, zoom/pan, keyboard navigation and a table view ([#143](https://github.com/husthunterpy01/Autonomous_Vehicle_Job_Profiles_Group3/pull/143))
