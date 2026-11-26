@@ -145,13 +145,6 @@ ATS APIs ─► Scrapers ─► MinIO (bronze) ─► Cleaning + LLM (silver) �
 
 ---
 
-## 📊 GitHub Activity
-
-<p align="center">
-  <img height="165" src="https://github-readme-stats.vercel.app/api?username=Weishan-Li&show_icons=true&hide_border=true&count_private=true&title_color=2563eb&icon_color=2563eb" />
-  <img height="165" src="https://streak-stats.demolab.com?user=Weishan-Li&hide_border=true&ring=2563EB&fire=2563EB&currStreakLabel=2563EB" />
-</p>
-
 ## 📫 Let's Connect
 
 I'm happy to chat about graduate roles, data projects, or anything food-and-data related.
